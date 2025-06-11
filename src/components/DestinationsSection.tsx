@@ -38,6 +38,150 @@ const destinations = [
     rating: 4.6,
     price: "From $75",
     description: "Geothermal wonders and rich Māori cultural experiences"
+  },
+  {
+    id: 5,
+    name: "Mount Cook National Park",
+    region: "Canterbury, South Island",
+    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.8,
+    price: "From $145",
+    description: "New Zealand's highest peak and stunning alpine scenery"
+  },
+  {
+    id: 6,
+    name: "Franz Josef Glacier",
+    region: "West Coast, South Island",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.7,
+    price: "From $165",
+    description: "Magnificent glacier descending into temperate rainforest"
+  },
+  {
+    id: 7,
+    name: "Tongariro National Park",
+    region: "Manawatu-Wanganui, North Island",
+    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.6,
+    price: "From $89",
+    description: "Volcanic landscapes and the famous Tongariro Alpine Crossing"
+  },
+  {
+    id: 8,
+    name: "Abel Tasman National Park",
+    region: "Tasman, South Island",
+    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.7,
+    price: "From $125",
+    description: "Golden beaches, crystal waters, and coastal hiking trails"
+  },
+  {
+    id: 9,
+    name: "Waitomo Caves",
+    region: "Waikato, North Island",
+    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.5,
+    price: "From $65",
+    description: "Magical glowworm caves and underground limestone formations"
+  },
+  {
+    id: 10,
+    name: "Coromandel Peninsula",
+    region: "Waikato, North Island",
+    image: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.6,
+    price: "From $105",
+    description: "Hot Water Beach, Cathedral Cove, and pristine coastlines"
+  },
+  {
+    id: 11,
+    name: "Stewart Island",
+    region: "Southland, South Island",
+    image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.8,
+    price: "From $220",
+    description: "Untouched wilderness and incredible kiwi bird spotting"
+  },
+  {
+    id: 12,
+    name: "Lake Taupo",
+    region: "Waikato, North Island",
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.5,
+    price: "From $85",
+    description: "New Zealand's largest lake with volcanic activities"
+  },
+  {
+    id: 13,
+    name: "Wellington",
+    region: "Wellington, North Island",
+    image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.4,
+    price: "From $110",
+    description: "Vibrant capital city with arts, culture, and cuisine"
+  },
+  {
+    id: 14,
+    name: "Christchurch",
+    region: "Canterbury, South Island",
+    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.3,
+    price: "From $95",
+    description: "Garden city rebuilding with innovative architecture"
+  },
+  {
+    id: 15,
+    name: "Dunedin",
+    region: "Otago, South Island",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.4,
+    price: "From $88",
+    description: "Scottish heritage, wildlife, and Otago Peninsula"
+  },
+  {
+    id: 16,
+    name: "Napier",
+    region: "Hawke's Bay, North Island",
+    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.5,
+    price: "From $92",
+    description: "Art Deco architecture and world-class wineries"
+  },
+  {
+    id: 17,
+    name: "Wanaka",
+    region: "Otago, South Island",
+    image: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.7,
+    price: "From $115",
+    description: "Stunning lake surrounded by Southern Alps"
+  },
+  {
+    id: 18,
+    name: "Kaikoura",
+    region: "Canterbury, South Island",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.6,
+    price: "From $135",
+    description: "Whale watching and spectacular coastal scenery"
+  },
+  {
+    id: 19,
+    name: "Tekapo",
+    region: "Canterbury, South Island",
+    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.8,
+    price: "From $125",
+    description: "Turquoise lake and world's largest Dark Sky Reserve"
+  },
+  {
+    id: 20,
+    name: "Paihia",
+    region: "Northland, North Island",
+    image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    rating: 4.5,
+    price: "From $78",
+    description: "Gateway to Bay of Islands with rich maritime history"
   }
 ];
 
