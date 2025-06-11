@@ -1,30 +1,30 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Mountain, Camera, Compass, Users } from "lucide-react";
+import { Mountain, Camera, TreePine, Waves } from "lucide-react";
 
 const experiences = [
   {
     icon: Mountain,
-    title: "Adventure Hiking",
-    description: "Conquer challenging trails and reach breathtaking summits with expert guides",
+    title: "Alpine Adventures",
+    description: "Conquer the Southern Alps with guided hiking and mountaineering experiences",
     color: "text-green-600"
+  },
+  {
+    icon: Waves,
+    title: "Marine Encounters",
+    description: "Swim with dolphins, whale watching, and explore pristine coastlines",
+    color: "text-blue-600"
+  },
+  {
+    icon: TreePine,
+    title: "Māori Culture",
+    description: "Immerse yourself in authentic Māori traditions, hangi feasts, and haka performances",
+    color: "text-purple-600"
   },
   {
     icon: Camera,
     title: "Photography Tours",
-    description: "Capture stunning landscapes with professional photography workshops",
-    color: "text-blue-600"
-  },
-  {
-    icon: Compass,
-    title: "Cultural Exploration",
-    description: "Immerse yourself in local traditions and discover hidden cultural gems",
-    color: "text-purple-600"
-  },
-  {
-    icon: Users,
-    title: "Group Adventures",
-    description: "Join like-minded travelers for unforgettable shared experiences",
+    description: "Capture Middle-earth landscapes and dramatic New Zealand scenery",
     color: "text-orange-600"
   }
 ];
@@ -35,10 +35,10 @@ const ExperiencesSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Unique Experiences
+            Unique Kiwi Experiences
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            More than just destinations - we create memories that last a lifetime
+            More than just sightseeing - create unforgettable memories in the land of the long white cloud
           </p>
         </div>
 
@@ -57,9 +57,9 @@ const ExperiencesSection = () => {
         </div>
 
         <div className="mt-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-12 text-center text-white">
-          <h3 className="text-3xl font-bold mb-4">Ready for Your Next Adventure?</h3>
+          <h3 className="text-3xl font-bold mb-4">Ready for Your Kiwi Adventure?</h3>
           <p className="text-xl mb-8 text-white/90">
-            Join thousands of travelers who have discovered the world with us
+            Join thousands who have discovered the magic of New Zealand with us
           </p>
           <button className="bg-white text-orange-500 hover:bg-gray-100 font-bold py-4 px-8 rounded-full text-lg transition-colors">
             Start Planning Today

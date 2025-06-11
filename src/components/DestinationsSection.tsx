@@ -5,39 +5,39 @@ import { MapPin, Star } from "lucide-react";
 const destinations = [
   {
     id: 1,
-    name: "Swiss Alps",
-    country: "Switzerland",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    name: "Milford Sound",
+    region: "Fiordland, South Island",
+    image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     rating: 4.9,
-    price: "From $1,200",
-    description: "Majestic peaks and pristine alpine landscapes"
+    price: "From $189",
+    description: "Dramatic fiords with towering waterfalls and pristine wilderness"
   },
   {
     id: 2,
-    name: "Banff National Park",
-    country: "Canada",
-    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    name: "Queenstown",
+    region: "Otago, South Island",
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     rating: 4.8,
-    price: "From $800",
-    description: "Turquoise lakes and towering mountain ranges"
+    price: "From $129",
+    description: "Adventure capital with stunning alpine lakes and mountains"
   },
   {
     id: 3,
-    name: "Rocky Mountains",
-    country: "USA",
-    image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    name: "Bay of Islands",
+    region: "Northland, North Island",
+    image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     rating: 4.7,
-    price: "From $600",
-    description: "Dramatic peaks and endless wilderness"
+    price: "From $95",
+    description: "Pristine waters, historic sites, and abundant marine life"
   },
   {
     id: 4,
-    name: "Highland Wilderness",
-    country: "Scotland",
+    name: "Rotorua",
+    region: "Bay of Plenty, North Island",
     image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     rating: 4.6,
-    price: "From $900",
-    description: "Mystical landscapes and ancient beauty"
+    price: "From $75",
+    description: "Geothermal wonders and rich Māori cultural experiences"
   }
 ];
 
@@ -47,10 +47,10 @@ const DestinationsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Popular Destinations
+            Iconic New Zealand Destinations
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover the most breathtaking places on Earth, carefully selected for unforgettable experiences
+            From the majestic Southern Alps to pristine beaches, explore the diverse beauty of Aotearoa
           </p>
         </div>
 
@@ -71,14 +71,14 @@ const DestinationsSection = () => {
               <CardContent className="p-6">
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin className="h-4 w-4 text-orange-500" />
-                  <span className="text-sm text-gray-500">{destination.country}</span>
+                  <span className="text-sm text-gray-500">{destination.region}</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{destination.name}</h3>
                 <p className="text-gray-600 mb-4">{destination.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-orange-500">{destination.price}</span>
                   <button className="text-orange-500 hover:text-orange-600 font-medium">
-                    Learn More →
+                    Explore →
                   </button>
                 </div>
               </CardContent>

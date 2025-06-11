@@ -4,24 +4,24 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    location: "New York, USA",
+    name: "Sarah Mitchell",
+    location: "Sydney, Australia",
     rating: 5,
-    text: "The Swiss Alps trip was absolutely magical! Every detail was perfectly planned, and the views were beyond anything I could have imagined.",
+    text: "Milford Sound was absolutely breathtaking! The fiords and waterfalls were more spectacular than any photo could capture. Pure New Zealand made our trip unforgettable.",
     avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
   },
   {
-    name: "Michael Chen",
-    location: "Toronto, Canada",
+    name: "James Chen",
+    location: "Vancouver, Canada",
     rating: 5,
-    text: "Banff National Park exceeded all expectations. The hiking guides were knowledgeable and the photography workshop was incredibly valuable.",
+    text: "Queenstown exceeded all expectations! The adventure activities and stunning alpine scenery made for the perfect holiday. The Māori cultural experience was deeply moving.",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
   },
   {
-    name: "Emma Wilson",
+    name: "Emma Thompson",
     location: "London, UK",
     rating: 5,
-    text: "An unforgettable journey through Scotland's highlands. The cultural immersion experiences were the highlight of our trip.",
+    text: "From the Bay of Islands to Rotorua's geothermal wonders, every moment was magical. New Zealand's natural beauty is truly unmatched. Kia ora to amazing memories!",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
   }
 ];
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
             What Travelers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it - hear from fellow adventurers
+            Hear from fellow adventurers who've experienced the magic of Aotearoa
           </p>
         </div>
 
